@@ -22,22 +22,20 @@ export const Contact = {
 	Body: styled.div`
 		display: flex;
 		flex-direction: column;
-		border: 1px solid red;
-		margin-top: 1%;
-
-		/* align-items: flex-end; */
+		margin-top: 2%;
+		align-items: flex-end;
 	`,
 	BLeft: styled.div`
 		display: flex;
 		min-width: 1.5rem;
 		min-height: 35px;
 		max-width: 40vh;
-		width: 21%;
+		width: 20%;
 		border-top-right-radius: 12px;
 		border-top-left-radius: 12px;
 		border-bottom-right-radius: 12px;
 		margin: 10px;
-		margin-left: 1%;
+		margin-right: 77%;
 		justify-content: flex-start;
 		opacity: 90%;
 		background-color: #4b4b4b;
@@ -47,34 +45,34 @@ export const Contact = {
 		font-weight: 600;
 		font-size: 18px;
 	`,
-	BRight: styled.div`
+	BRight: styled.a`
 		display: flex;
 		min-width: 1.5rem;
 		min-height: 35px;
 		max-width: 40vh;
 		align-items: center;
-		width: 21%;
-		border-top-right-radius: 8px;
-		border-top-left-radius: 8px;
-		border-bottom-left-radius: 8px;
+		border-top-right-radius: 12px;
+		border-top-left-radius: 12px;
+		border-bottom-left-radius: 12px;
 		margin: 10px;
-		margin-right: 5%;
-		border: 1px solid brown;
-		background-color: lightskyblue;
+		background-color: #0080ff;
+		justify-content: flex-end;
+		margin-right: 2%;
+		text-decoration: none;
+	`,
+	TextWrapper: styled.div`
+		display: flex;
+		margin: 0 10px 0 10px;
+		font-weight: 600;
+		font-size: 18px;
+		color: white;
 		img {
 			width: 30px;
 			height: 30px;
 		}
 	`,
-	TextWrapper: styled.div`
-		display: flex;
-		border: 1px solid red;
-		margin-right: 2%;
-		justify-content: right;
-	`,
 	Text: styled.span`
 		display: flex;
-		align-items: flex-end;
-		float: right;
+		align-items: center;
 	`,
 }
