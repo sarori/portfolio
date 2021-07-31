@@ -1,9 +1,7 @@
 import { Folder } from "../../SharedStyles"
-
-// import { Folder.FolderWrapper, Folder.FolderContainer, Folder.FolderimgDiv, Folder.Folderimg, Folder.FolderName } from "../HomeStyles"
 import { useHistory } from "react-router-dom"
 
-const MainFolders = () => {
+const ProfileFolder = () => {
 	const history = useHistory()
 	return (
 		<Folder.FolderWrapper>
@@ -20,35 +18,19 @@ const MainFolders = () => {
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Profile</span>
+					<span>Intro</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/projects`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/profile/lan`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Projects</span>
-				</Folder.FolderName>
-			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/experiences`)}>
-				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
-				</Folder.FolderimgDiv>
-				<Folder.FolderName>
-					<span>Experiences</span>
-				</Folder.FolderName>
-			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/contact`)}>
-				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
-				</Folder.FolderimgDiv>
-				<Folder.FolderName>
-					<span>Contact</span>
+					<span>Language & Skills</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
 		</Folder.FolderWrapper>
 	)
 }
 
-export default MainFolders
+export default ProfileFolder

@@ -22,7 +22,7 @@ export const Contact = {
 	Body: styled.div`
 		display: flex;
 		flex-direction: column;
-		margin-top: 2%;
+		margin-top: 1%;
 		align-items: flex-end;
 	`,
 	BLeft: styled.div`
@@ -66,6 +66,7 @@ export const Contact = {
 		font-weight: 600;
 		font-size: 18px;
 		color: white;
+		align-items: center;
 		img {
 			width: 30px;
 			height: 30px;
@@ -74,5 +75,6 @@ export const Contact = {
 	Text: styled.span`
 		display: flex;
 		align-items: center;
+		padding: 3px 0;
 	`,
 }

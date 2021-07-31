@@ -30,34 +30,36 @@ const MainContact = () => {
 								<img src={"/images/git.png"} alt="github" />
 							</Contact.TextWrapper>
 						</Contact.BRight>
-						<Contact.BRight style={{ width: "140px" }}>
+						<Contact.BRight style={{ width: "180px" }}>
 							<Contact.TextWrapper>
-								<Contact.Text>Facebook&nbsp;&nbsp;</Contact.Text>{" "}
-								<img src={"/images/facebook.png"} alt="facebook" />
+								<Contact.Text>07.66.23.20.44&nbsp;&nbsp;</Contact.Text>{" "}
+								<img src={"/images/phone.png"} alt="phone" />
 							</Contact.TextWrapper>
 						</Contact.BRight>
 						<Contact.BRight
 							href="mailto:salo3678@gmail.com"
 							target="_blank"
 							rel="noopener noreferrer"
-							style={{ width: "290px" }}
+							style={{ width: "230px" }}
 						>
 							<Contact.TextWrapper>
-								<Contact.Text>Email: salo3678@gmail.com &nbsp;&nbsp;</Contact.Text>{" "}
+								<Contact.Text>salo3678@gmail.com&nbsp;&nbsp;</Contact.Text>{" "}
 								<img src={"/images/mail.png"} alt="email" />
 							</Contact.TextWrapper>
 						</Contact.BRight>
+
 						<Contact.BRight
-							href="https://www.instagram.com/sarori_zz/"
+							href="https://www.facebook.com/sarori.saro.park/"
 							target="_blank"
 							rel="noopener noreferrer"
-							style={{ width: "135px" }}
+							style={{ width: "140px" }}
 						>
 							<Contact.TextWrapper>
-								<Contact.Text>Instagram&nbsp;&nbsp;</Contact.Text>{" "}
-								<img src={"/images/insta.png"} alt="insta" />
+								<Contact.Text>Facebook&nbsp;&nbsp;</Contact.Text>{" "}
+								<img src={"/images/facebook.png"} alt="facebook" />
 							</Contact.TextWrapper>
 						</Contact.BRight>
+
 						<Contact.BRight style={{ width: "135px" }}>
 							<Contact.TextWrapper>
 								<Contact.Text> Thank you&nbsp;💕 </Contact.Text>

@@ -9,7 +9,7 @@ export const Folder = {
 		height: 60%;
 	`,
 	FolderContainer: styled.div`
-		width: 50%;
+		width: 70%;
 		height: 25%;
 		&:hover {
 			div {
@@ -66,8 +66,8 @@ export const FileScreen = {
 		justify-content: center;
 	`,
 	Container: styled.div`
-		width: 90%;
-		height: 85%;
+		width: 97%;
+		height: 90%;
 	`,
 	Top: styled.div`
 		width: 100%;

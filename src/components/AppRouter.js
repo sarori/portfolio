@@ -4,6 +4,7 @@ import Profile from "../routes/Profile/Profile"
 import Projects from "../routes/Projects/Projects"
 import Contact from "../routes/Contact/Contact"
 import Experiences from "../routes/Experiences/Experiences"
+import Lan from "../routes/Profile/Component/Lan"
 
 const AppRouter = () => {
 	return (
@@ -11,9 +12,10 @@ const AppRouter = () => {
 			<Switch>
 				<Route exact path="/" component={Home} />
 				<Route path="/projects" component={Projects} />
-				<Route path="/profile" component={Profile} />
+				<Route path="/profile/:param" component={Profile} />
 				<Route path="/experiences" component={Experiences} />
 				<Route path="/contact" component={Contact} />
+				{/* <Route path="/profile/lan" component={Lan} /> */}
 			</Switch>
 		</Router>
 	)
