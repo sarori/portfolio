@@ -1,9 +1,7 @@
 import { Folder } from "../../SharedStyles"
-
-// import { Folder.FolderWrapper, Folder.FolderContainer, Folder.FolderimgDiv, Folder.Folderimg, Folder.FolderName } from "../HomeStyles"
 import { useHistory } from "react-router-dom"
 
-const MainFolders = () => {
+const ProjectFolder = () => {
 	const history = useHistory()
 	return (
 		<Folder.FolderWrapper>
@@ -15,40 +13,32 @@ const MainFolders = () => {
 					<span>Home</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/profile/intro`)}>
+			{/* <Folder.FolderContainer onClick={() => history.push(`/profile/intro`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Profile</span>
+					<span>Awards</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/projects`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/profile/lan`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Projects</span>
+					<span>Career</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/experiences/awards`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/profile/lan`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Experiences</span>
+					<span>Others</span>
 				</Folder.FolderName>
-			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/contact`)}>
-				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
-				</Folder.FolderimgDiv>
-				<Folder.FolderName>
-					<span>Contact</span>
-				</Folder.FolderName>
-			</Folder.FolderContainer>
+			</Folder.FolderContainer> */}
 		</Folder.FolderWrapper>
 	)
 }
 
-export default MainFolders
+export default ProjectFolder

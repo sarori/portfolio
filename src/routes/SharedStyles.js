@@ -80,9 +80,25 @@ export const FileScreen = {
 		border-top-left-radius: 8px;
 		border-top-right-radius: 8px;
 	`,
-	Body: styled.div`
+	HomeBody: styled.div`
 		width: 100%;
 		height: 94%;
+		background-color: black;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+			border-bottom-left-radius: 8px;
+			border-bottom-right-radius: 8px;
+		}
+	`,
+
+	Body: styled.div`
+		width: 100%;
+		height: 72vh;
+		overflow: scroll;
 		background-color: white;
 		border-bottom-left-radius: 8px;
 		border-bottom-right-radius: 8px;

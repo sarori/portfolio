@@ -54,31 +54,24 @@ export const SLan = {
 		display: flex;
 		flex-direction: column;
 		margin: 0 auto;
-		/* align-items: center; */
 	`,
 	Title: styled.div`
 		font-size: 30px;
 		font-weight: 600;
-		margin-top: 1%;
-		border: 1px solid blue;
+		margin-top: 3%;
 	`,
-	List: styled.ul`
-		border: 1px solid red;
-	`,
+	List: styled.ul``,
 	Li: styled.li`
-		margin: 15px 0;
+		margin: 0 0 15px 0;
 		font-size: 17px;
 	`,
 	ContentWrapper: styled.div`
 		display: flex;
 		flex-direction: column;
-		border: 1px solid red;
 	`,
 	DetailWrapper: styled.div`
 		display: flex;
 		flex-direction: column;
-		border: 1px solid red;
-
 		width: 75%;
 		height: 100%;
 	`,
@@ -93,6 +86,6 @@ export const SLan = {
 	`,
 	Line: styled.div`
 		border: 1px solid lightgray;
-		width: 90%;
+		width: 99%;
 	`,
 }

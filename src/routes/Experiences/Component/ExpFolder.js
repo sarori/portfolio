@@ -1,9 +1,7 @@
 import { Folder } from "../../SharedStyles"
-
-// import { Folder.FolderWrapper, Folder.FolderContainer, Folder.FolderimgDiv, Folder.Folderimg, Folder.FolderName } from "../HomeStyles"
 import { useHistory } from "react-router-dom"
 
-const MainFolders = () => {
+const ExpFolder = () => {
 	const history = useHistory()
 	return (
 		<Folder.FolderWrapper>
@@ -15,40 +13,32 @@ const MainFolders = () => {
 					<span>Home</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/profile/intro`)}>
-				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
-				</Folder.FolderimgDiv>
-				<Folder.FolderName>
-					<span>Profile</span>
-				</Folder.FolderName>
-			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/projects`)}>
-				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
-				</Folder.FolderimgDiv>
-				<Folder.FolderName>
-					<span>Projects</span>
-				</Folder.FolderName>
-			</Folder.FolderContainer>
 			<Folder.FolderContainer onClick={() => history.push(`/experiences/awards`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Experiences</span>
+					<span>Awards</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/contact`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/experiences/career`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Contact</span>
+					<span>Career</span>
+				</Folder.FolderName>
+			</Folder.FolderContainer>
+			<Folder.FolderContainer onClick={() => history.push(`/experiences/others`)}>
+				<Folder.FolderimgDiv>
+					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+				</Folder.FolderimgDiv>
+				<Folder.FolderName>
+					<span>Others</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
 		</Folder.FolderWrapper>
 	)
 }
 
-export default MainFolders
+export default ExpFolder

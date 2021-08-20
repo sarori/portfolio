@@ -5,13 +5,15 @@ const MainIntro = () => {
 	const history = useHistory()
 	return (
 		<FileScreen.Wrapper>
-			<FileScreen.Container>
+			<FileScreen.Container style={{ width: "66.5%" }}>
 				<FileScreen.Top>
 					<FileScreen.RoundBtn onClick={() => history.push("/")}></FileScreen.RoundBtn>
 					<FileScreen.RoundBtn></FileScreen.RoundBtn>
 					<FileScreen.RoundBtn></FileScreen.RoundBtn>
 				</FileScreen.Top>
-				<FileScreen.Body>이미지</FileScreen.Body>
+				<FileScreen.HomeBody>
+					<img src="/images/intro.png" alt="intro" />
+				</FileScreen.HomeBody>
 			</FileScreen.Container>
 		</FileScreen.Wrapper>
 	)
