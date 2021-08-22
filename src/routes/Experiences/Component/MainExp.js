@@ -2,15 +2,16 @@ import { useHistory, useParams } from "react-router-dom"
 import { FileScreen } from "../../SharedStyles"
 import Awards from "./Awards"
 import Career from "./Career"
-import Others from "./Others"
+
+import Activities from "./Activities"
 
 const ExpCase = (param) => {
 	switch (param) {
 		case "career":
 			return <Career />
 			break
-		case "others":
-			return <Others />
+		case "activities":
+			return <Activities />
 			break
 		default:
 			return <Awards />

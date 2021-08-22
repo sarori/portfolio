@@ -30,12 +30,12 @@ const ExpFolder = () => {
 				</Folder.FolderName>
 			</Folder.FolderContainer>
 
-			<Folder.FolderContainer onClick={() => history.push(`/experiences/others`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/experiences/activities`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Others</span>
+					<span>Activities</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
 		</Folder.FolderWrapper>

@@ -1,6 +1,4 @@
 import { Folder } from "../../SharedStyles"
-
-// import { Folder.FolderWrapper, Folder.FolderContainer, Folder.FolderimgDiv, Folder.Folderimg, Folder.FolderName } from "../HomeStyles"
 import { useHistory } from "react-router-dom"
 
 const MainFolders = () => {
