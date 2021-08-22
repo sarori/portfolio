@@ -11,6 +11,7 @@ export const SIntro = {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin: 4% 0 5% 0;
 	`,
 	Title: styled.div`
 		font-size: 30px;
@@ -20,26 +21,45 @@ export const SIntro = {
 	ContentWrapper: styled.div`
 		display: flex;
 		flex-direction: row;
-		border: 1px solid red;
 		width: 80%;
-		height: 50%;
+		height: 75%;
+		/* margin: 3% 0 1% 0; */
 	`,
 	DetailWrapper: styled.div`
 		display: flex;
 		flex-direction: column;
-		border: 1px solid red;
 
-		width: 75%;
+		width: 80%;
 		height: 100%;
+	`,
+	IntroWrapper: styled.div`
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		height: 75%;
+		margin: 3% 0 1% 0;
+		padding-bottom: 5%;
 	`,
 	Img: styled.img`
-		width: 25%;
+		width: 60%;
 		height: 100%;
 	`,
-	Intro: styled.div``,
-	Desc: styled.div``,
-	Info: styled.div`
+	Intro: styled.div`
+		font-size: 22px;
+		margin: 2% 0;
+		line-height: 32px;
+	`,
+	Desc: styled.div`
+		div {
+			margin: 5%;
+		}
+	`,
+	Info: styled.span`
 		cursor: pointer;
+		&:hover {
+			color: #2358c9;
+		}
 	`,
 }
 
