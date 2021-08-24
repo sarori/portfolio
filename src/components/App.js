@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import Header from "../routes/Header/Header"
 import AppRouter from "./AppRouter"
 
 const Wrapper = styled.div`
@@ -14,7 +13,6 @@ const Wrapper = styled.div`
 function App() {
 	return (
 		<Wrapper>
-			<Header />
 			<AppRouter />
 		</Wrapper>
 	)

@@ -21,3 +21,10 @@ export const HeaderContent = styled.div`
 	position: absolute;
 	z-index: 2;
 `
+
+export const HStyle = {
+	UList: styled.ul``,
+	List: styled.li`
+		cursor: pointer;
+	`,
+}
