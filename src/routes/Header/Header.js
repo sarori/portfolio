@@ -11,19 +11,44 @@ const Header = () => {
 			<HeaderCover></HeaderCover>
 			<HeaderContent>
 				<HStyle.UList>
-					<HStyle.List onClick={() => history?.push(`/`)}>Home</HStyle.List>
-					<HStyle.List onClick={() => history.push(`/contact`)}>Contact</HStyle.List>
-					<HStyle.List class="dropdown">
-						<a href="javascript:void(0)" class="dropbtn">
-							Dropdown
-						</a>
-						<div class="dropdown-content">
-							<a href="#">Link 1</a>
-							<a href="#">Link 2</a>
-							<a href="#">Link 3</a>
+					<HStyle.Lst>
+						<div onClick={() => history?.push(`/`)}>Home</div>
+					</HStyle.Lst>
+					<HStyle.Lst className="dropdown">
+						<div className="dropbtn" onClick={() => history?.push(`/profile/intro`)}>
+							Profile
 						</div>
-					</HStyle.List>
+						<div className="dropdown-content">
+							<div onClick={() => history.push(`/profile/intro`)}>Intro</div>
+							<div onClick={() => history.push(`/profile/lan`)}>Lan & Skills</div>
+						</div>
+					</HStyle.Lst>
+					<HStyle.Lst>
+						<div onClick={() => history?.push(`/contact`)}>Contact</div>
+					</HStyle.Lst>
 				</HStyle.UList>
+				{/* <HStyle.UList>
+					<HStyle.List onClick={() => history?.push(`/`)}>Home</HStyle.List>
+					<HStyle.Dropdown>
+						Profile
+						<HStyle.DropdownContent class="dropdown-content">
+							<div onClick={() => history.push(`/profile/intro`)}>Intro</div>
+							<div onClick={() => history.push(`/profile/lan`)}>Lan & Skills</div>
+						</HStyle.DropdownContent>
+					</HStyle.Dropdown>
+					<HStyle.List onClick={() => history.push(`/projects`)}>Projects</HStyle.List>
+					<HStyle.Dropdown>
+						Experiences
+						<HStyle.DropdownContent class="dropdown-content">
+							<div onClick={() => history.push(`/experiences/career`)}>Career</div>
+							<div onClick={() => history.push(`/experiences/awards`)}>Awards</div>
+							<div onClick={() => history.push(`/experiences/activities`)}>
+								Activities
+							</div>
+						</HStyle.DropdownContent>
+					</HStyle.Dropdown>
+					<HStyle.List onClick={() => history.push(`/contact`)}>Contact</HStyle.List>
+				</HStyle.UList> */}
 			</HeaderContent>
 		</HeaderWrapper>
 	)
