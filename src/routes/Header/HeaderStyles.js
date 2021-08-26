@@ -22,17 +22,26 @@ export const HeaderContent = styled.div`
 	z-index: 2;
 `
 
-export const DropdownBtn = styled.div`
-	display: inline-block;
+export const UList = styled.ul`
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	height: 30px;
+`
+
+export const Lst = styled.li`
+	float: left;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 8px 16px;
 	text-decoration: none;
 	&:hover {
+		display: block;
 		background-color: red;
 	}
 `
-
 export const DropdownContent = styled.div`
 	display: none;
 	position: absolute;
@@ -40,35 +49,17 @@ export const DropdownContent = styled.div`
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
+	border-radius: 4px;
+	margin-top: -4px;
 	div {
 		color: black;
-		padding: 12px 16px;
+		padding: 8px 16px;
 		text-decoration: none;
 		display: block;
 		text-align: left;
 		&:hover {
 			background-color: #f1f1f1;
 		}
-	}
-`
-
-export const UList = styled.ul`
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-`
-
-export const Lst = styled.li`
-	float: left;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	&:hover {
-		display: block;
-		background-color: red;
 	}
 `
 
@@ -80,5 +71,16 @@ export const DropdownLst = styled.li`
 		${DropdownContent} {
 			display: block;
 		}
+	}
+`
+
+export const DropdownBtn = styled.div`
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+	&:hover {
+		background-color: red;
 	}
 `

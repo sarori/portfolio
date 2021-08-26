@@ -24,11 +24,24 @@ const Header = () => {
 					<Lst>
 						<div onClick={() => history?.push(`/`)}>Home</div>
 					</Lst>
-					<DropdownLst className="dropdown">
+					<DropdownLst>
 						<DropdownBtn>Profile</DropdownBtn>
 						<DropdownContent>
 							<div onClick={() => history.push(`/profile/intro`)}>Intro</div>
 							<div onClick={() => history.push(`/profile/lan`)}>Lan & Skills</div>
+						</DropdownContent>
+					</DropdownLst>
+					<Lst>
+						<div onClick={() => history?.push(`/projects`)}>Projects</div>
+					</Lst>
+					<DropdownLst>
+						<DropdownBtn>Experiences</DropdownBtn>
+						<DropdownContent>
+							<div onClick={() => history.push(`/experiences/career`)}>Career</div>
+							<div onClick={() => history.push(`/experiences/awards`)}>Awards</div>
+							<div onClick={() => history.push(`/experiences/activities`)}>
+								Activities
+							</div>
 						</DropdownContent>
 					</DropdownLst>
 					<Lst>
