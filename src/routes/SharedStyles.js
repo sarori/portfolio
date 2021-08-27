@@ -7,6 +7,7 @@ export const Folder = {
 		align-items: flex-end;
 		width: 100%;
 		height: 60%;
+		margin-top: 15px;
 	`,
 	FolderContainer: styled.div`
 		width: 70%;

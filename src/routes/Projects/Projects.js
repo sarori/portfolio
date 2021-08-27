@@ -6,7 +6,7 @@ import {
 	RightContainer,
 	Wrapper,
 } from "../Home/HomeStyles"
-import MainProfile from "../Profile/Component/MainProfile"
+import MainProject from "./Component/MainProject"
 import ProjectFolder from "./Component/ProjectFolder"
 
 const Projects = () => {
@@ -14,7 +14,7 @@ const Projects = () => {
 		<Wrapper>
 			<Container>
 				<LeftContainer>
-					<MainProfile />
+					<MainProject />
 				</LeftContainer>
 				<RightContainer>
 					<ProjectFolder />

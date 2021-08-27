@@ -13,30 +13,54 @@ const ProjectFolder = () => {
 					<span>Home</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			{/* <Folder.FolderContainer onClick={() => history.push(`/profile/intro`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/projects/mainproject`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Awards</span>
+					<span>All</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/profile/lan`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/projects/instaclone`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Career</span>
+					<span>Instaclone</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/profile/lan`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/projects/sleact`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Others</span>
+					<span>Sleact</span>
 				</Folder.FolderName>
-			</Folder.FolderContainer> */}
+			</Folder.FolderContainer>
+			<Folder.FolderContainer onClick={() => history.push(`/projects/twitter`)}>
+				<Folder.FolderimgDiv>
+					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+				</Folder.FolderimgDiv>
+				<Folder.FolderName>
+					<span>Twitter</span>
+				</Folder.FolderName>
+			</Folder.FolderContainer>
+			<Folder.FolderContainer onClick={() => history.push(`/projects/smsw`)}>
+				<Folder.FolderimgDiv>
+					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+				</Folder.FolderimgDiv>
+				<Folder.FolderName>
+					<span>SMSW</span>
+				</Folder.FolderName>
+			</Folder.FolderContainer>
+			<Folder.FolderContainer onClick={() => history.push(`/projects/ecole`)}>
+				<Folder.FolderimgDiv>
+					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+				</Folder.FolderimgDiv>
+				<Folder.FolderName>
+					<span>42</span>
+				</Folder.FolderName>
+			</Folder.FolderContainer>
 		</Folder.FolderWrapper>
 	)
 }

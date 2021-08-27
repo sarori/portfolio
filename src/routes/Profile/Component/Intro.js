@@ -33,7 +33,7 @@ const Intro = () => {
 					</SIntro.Intro>
 					<SIntro.Intro>
 						If you want to see my previous work history ->{" "}
-						<SIntro.Info onClick={() => history.push("/projects")}>
+						<SIntro.Info onClick={() => history.push("/projects/mainproject")}>
 							Click here.
 						</SIntro.Info>
 					</SIntro.Intro>

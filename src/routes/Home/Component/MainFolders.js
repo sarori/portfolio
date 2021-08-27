@@ -21,7 +21,7 @@ const MainFolders = () => {
 					<span>Profile</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/projects`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/projects/mainproject`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
