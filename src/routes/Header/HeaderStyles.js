@@ -39,26 +39,30 @@ export const Lst = styled.li`
 	text-decoration: none;
 	&:hover {
 		display: block;
-		background-color: red;
+		background-color: #b2bec3;
+		opacity: 99%;
+		border-radius: 4px;
 	}
 `
 export const DropdownContent = styled.div`
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color: #333;
+	opacity: 99%;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 	border-radius: 4px;
 	margin-top: -4px;
 	div {
-		color: black;
+		color: white;
+
 		padding: 8px 16px;
 		text-decoration: none;
 		display: block;
 		text-align: left;
 		&:hover {
-			background-color: #f1f1f1;
+			background-color: #0984e3;
 		}
 	}
 `
@@ -66,7 +70,8 @@ export const DropdownContent = styled.div`
 export const DropdownLst = styled.li`
 	float: left;
 	&:hover {
-		background-color: red;
+		background-color: #b2bec3;
+		border-radius: 4px;
 		display: block;
 		${DropdownContent} {
 			display: block;
@@ -81,6 +86,8 @@ export const DropdownBtn = styled.div`
 	padding: 8px 16px;
 	text-decoration: none;
 	&:hover {
-		background-color: red;
+		background-color: #b2bec3;
+		opacity: 99%;
+		border-radius: 4px;
 	}
 `

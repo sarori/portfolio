@@ -6,7 +6,6 @@ import {
 	HeaderContent,
 	HeaderCover,
 	HeaderWrapper,
-	HStyle,
 	Lst,
 	UList,
 } from "./HeaderStyles"
