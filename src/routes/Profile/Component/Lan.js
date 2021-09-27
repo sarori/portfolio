@@ -9,9 +9,11 @@ const Lan = () => {
 					<SLan.List>
 						<SLan.Li>Language: TypeScript, JavaScript, C,</SLan.Li>
 						<SLan.Li>
-							Front-End: React, React-Native, Apollo, Graphql, Styled-component
+							Front-End: React, React Hooks, Apollo, HTML, Styled-components
 						</SLan.Li>
-						<SLan.Li>Back-End: Express, Prisma, Mysql, Postgres, NodeJS</SLan.Li>
+						<SLan.Li>
+							Back-End: Apollo Server, GraphQL, Prisma, Postgres, NodeJS
+						</SLan.Li>
 					</SLan.List>
 				</SLan.ContentWrapper>
 				<SLan.Line></SLan.Line>
