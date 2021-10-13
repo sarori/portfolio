@@ -47,4 +47,8 @@ export const CareerStyle = {
 			margin: 1% 0;
 		}
 	`,
+	Main: styled.div`
+		margin: 3% 3%;
+		font-size: 20px;
+	`,
 }

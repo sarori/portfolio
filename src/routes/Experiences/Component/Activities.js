@@ -37,7 +37,14 @@ const Activities = () => {
 
 						<CareerStyle.Desc>
 							<ul>
-								<li>Example1</li>
+								<li>
+									I experienced cultural exchange with students from various
+									backgrounds.
+								</li>
+								<li>
+									Through team project activities and online projects, I gained
+									collaboration and communication skills.{" "}
+								</li>
 							</ul>
 						</CareerStyle.Desc>
 					</CareerStyle.Box>
@@ -49,24 +56,11 @@ const Activities = () => {
 						<CareerStyle.Period>2016.11 ~ 2017.02</CareerStyle.Period>
 						<CareerStyle.Desc>
 							<ul>
-								<li>외국인 교환학생들을 대상으로 통역 및 문화 전달 봉사</li>
-								<li>외국인 학생들의 학교와 한국 문화 적응을 도왔다.</li>
-								<li>우수 보고서 상 받음</li>
-							</ul>
-						</CareerStyle.Desc>
-					</CareerStyle.Box>
-					<CareerStyle.Box>
-						<CareerStyle.Title>
-							{" "}
-							Hanyang University | Bachelor Degree Major of Information System
-						</CareerStyle.Title>
-						<CareerStyle.BoxRow></CareerStyle.BoxRow>
-
-						<CareerStyle.Period>2015.02 ~ 2019.02</CareerStyle.Period>
-
-						<CareerStyle.Desc>
-							<ul>
-								<li>Example1</li>
+								<li>
+									Interpretation and cultural delivery service for foreign
+									exchange students
+								</li>
+								<li>Helped foreign students adapt to school and Korean culture.</li>
 							</ul>
 						</CareerStyle.Desc>
 					</CareerStyle.Box>
