@@ -1,5 +1,5 @@
-import { SIntro } from "../../Profile/ProfileStyles"
-import { CareerStyle, Exp } from "../ExpStyles"
+import { SIntro } from "../ProfileStyles"
+import { CareerStyle, Exp } from "../../Profile/ExpStyles"
 
 const Activities = () => {
 	return (
@@ -53,7 +53,7 @@ const Activities = () => {
 							Volunteer | Office of International Affairs, Hanyang University
 						</CareerStyle.Title>
 						<CareerStyle.BoxRow></CareerStyle.BoxRow>
-						<CareerStyle.Period>2016.11 ~ 2017.02</CareerStyle.Period>
+						<CareerStyle.Period>2017.03 ~ 2017.06</CareerStyle.Period>
 						<CareerStyle.Desc>
 							<ul>
 								<li>

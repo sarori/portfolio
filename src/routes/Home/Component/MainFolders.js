@@ -29,14 +29,6 @@ const MainFolders = () => {
 					<span>Projects</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/experiences/career`)}>
-				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
-				</Folder.FolderimgDiv>
-				<Folder.FolderName>
-					<span>Experiences</span>
-				</Folder.FolderName>
-			</Folder.FolderContainer>
 			<Folder.FolderContainer onClick={() => history.push(`/contact`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />

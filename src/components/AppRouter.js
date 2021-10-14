@@ -3,7 +3,6 @@ import Home from "../routes/Home/Home"
 import Profile from "../routes/Profile/Profile"
 import Projects from "../routes/Projects/Projects"
 import Contact from "../routes/Contact/Contact"
-import Experiences from "../routes/Experiences/Experiences"
 import Header from "../routes/Header/Header"
 
 const AppRouter = () => {
@@ -13,9 +12,8 @@ const AppRouter = () => {
 
 			<Switch>
 				<Route exact path="/" component={Home} />
-				<Route path="/projects/:param" component={Projects} />
 				<Route path="/profile/:param" component={Profile} />
-				<Route path="/experiences/:param" component={Experiences} />
+				<Route path="/projects/:param" component={Projects} />
 				<Route path="/contact" component={Contact} />
 			</Switch>
 		</Router>

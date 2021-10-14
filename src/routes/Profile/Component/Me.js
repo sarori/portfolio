@@ -1,12 +1,12 @@
-import { CareerStyle, Exp } from "../../Experiences/ExpStyles"
+import { CareerStyle, Exp } from "../ExpStyles"
 import { SIntro } from "../ProfileStyles"
 
-const Lan = () => {
+const Me = () => {
 	return (
 		<Exp.Wrapper>
 			<Exp.Container>
 				<SIntro.Title style={{ display: "flex", justifyContent: "center" }}>
-					Skills | Language | Education
+					About Me.
 				</SIntro.Title>
 				<CareerStyle.Col>
 					<CareerStyle.Box>
@@ -53,4 +53,4 @@ const Lan = () => {
 	)
 }
 
-export default Lan
+export default Me

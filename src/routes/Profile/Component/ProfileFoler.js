@@ -21,12 +21,28 @@ const ProfileFolder = () => {
 					<span>Intro</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
-			<Folder.FolderContainer onClick={() => history.push(`/profile/lan`)}>
+			<Folder.FolderContainer onClick={() => history.push(`/profile/me`)}>
 				<Folder.FolderimgDiv>
 					<Folder.Folderimg src="/images/folder.png" alt="folder" />
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
-					<span>Language & Skills</span>
+					<span>AboutMe</span>
+				</Folder.FolderName>
+			</Folder.FolderContainer>
+			<Folder.FolderContainer onClick={() => history.push(`/profile/career`)}>
+				<Folder.FolderimgDiv>
+					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+				</Folder.FolderimgDiv>
+				<Folder.FolderName>
+					<span>Career</span>
+				</Folder.FolderName>
+			</Folder.FolderContainer>
+			<Folder.FolderContainer onClick={() => history.push(`/profile/activities`)}>
+				<Folder.FolderimgDiv>
+					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+				</Folder.FolderimgDiv>
+				<Folder.FolderName>
+					<span>Activities</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
 		</Folder.FolderWrapper>

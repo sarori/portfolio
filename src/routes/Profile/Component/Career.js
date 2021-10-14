@@ -1,7 +1,6 @@
 import { SIntro } from "../../Profile/ProfileStyles"
 import { CareerStyle, Exp } from "../ExpStyles"
 import { GrAttachment } from "react-icons/gr"
-import { Link } from "react-router-dom"
 
 const Career = () => {
 	return (
@@ -20,8 +19,12 @@ const Career = () => {
 							<CareerStyle.Main>
 								Sunmoon University - Software Institute Website Taken a role as a
 								front-end developer, implemented webpage. SPA react website.{" "}
-								<a href="https://sw.sunmoon.ac.kr/" target="_blank">
-									<GrAttachment size={15} />
+								<a
+									href="https://sw.sunmoon.ac.kr/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									<GrAttachment size={16} />
 								</a>
 							</CareerStyle.Main>
 							<ul>
