@@ -27,7 +27,11 @@ const Header = () => {
 						<DropdownBtn>Profile</DropdownBtn>
 						<DropdownContent>
 							<div onClick={() => history.push(`/profile/intro`)}>Intro</div>
-							<div onClick={() => history.push(`/profile/lan`)}>Lan & Skills</div>
+							<div onClick={() => history.push(`/profile/me`)}>About Me</div>
+							<div onClick={() => history.push(`/profile/career`)}>Career</div>
+							<div onClick={() => history.push(`/profile/activities`)}>
+								Activities
+							</div>
 						</DropdownContent>
 					</DropdownLst>
 					<DropdownLst>
@@ -42,16 +46,6 @@ const Header = () => {
 							<div onClick={() => history?.push(`/projects/smsw`)}>SMSW</div>
 							<div onClick={() => history?.push(`/projects/ecole`)}>42</div>
 							<div onClick={() => history?.push(`/projects/others`)}>others</div>
-						</DropdownContent>
-					</DropdownLst>
-					<DropdownLst>
-						<DropdownBtn>Experiences</DropdownBtn>
-						<DropdownContent>
-							<div onClick={() => history.push(`/experiences/career`)}>Career</div>
-							<div onClick={() => history.push(`/experiences/awards`)}>Awards</div>
-							<div onClick={() => history.push(`/experiences/activities`)}>
-								Activities
-							</div>
 						</DropdownContent>
 					</DropdownLst>
 					<Lst>
