@@ -36,3 +36,36 @@ export const Prj = {
 		align-items: center;
 	`,
 }
+export const PrjDetail = {
+	Wrapper: styled.div`
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+	`,
+	Container: styled.div`
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	`,
+	Title: styled.div`
+		font-size: 30px;
+		font-weight: 800;
+		color: #0652dd;
+	`,
+	Desc: styled.div`
+		font-size: 20px;
+	`,
+	Logo: styled.img`
+		width: 30px;
+		height: 30px;
+	`,
+	Lst: styled.ul`
+		font-size: 19px;
+	`,
+	SubTitle: styled.div`
+		font-size: 27px;
+		font-weight: 700;
+		color: #feca57;
+	`,
+}
