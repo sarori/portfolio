@@ -51,8 +51,9 @@ export const FooterContainer = styled.div`
 	align-items: center;
 	justify-content: center;
 	img {
-		width: 10%;
+		width: 9%;
 		height: 95%;
+		margin-right: 5px;
 		&:hover {
 			width: 12%;
 			height: 120%;
