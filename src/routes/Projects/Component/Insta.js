@@ -26,6 +26,8 @@ const Insta = () => {
 					<li>Database: Prisma / Postgresql</li>
 				</PrjDetail.Lst>
 				<PrjDetail.SubTitle>Main Features</PrjDetail.SubTitle>
+				Email LogIn User Profile Follow / Un Follow Direct Message Search Photo Like Photo
+				Comment on Photos Photo Feed Upload Photo
 			</PrjDetail.Container>
 		</PrjDetail.Wrapper>
 	)
