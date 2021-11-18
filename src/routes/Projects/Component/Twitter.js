@@ -4,7 +4,15 @@ const Twitter = () => {
 	return (
 		<PrjDetail.Wrapper>
 			<PrjDetail.Container>
-				<PrjDetail.Title>Twitter Clone</PrjDetail.Title>
+				<PrjDetail.Title>
+					Twitter Clone&nbsp;
+					<img
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/twitter.png?alt=media&token=e6a69fdc-c81e-47ec-ab50-9fa9e148dbcc"
+						alt="twitter"
+						height="40px"
+						width="40px"
+					></img>
+				</PrjDetail.Title>
 
 				<img
 					src={`/images/twittervideo.gif`}
@@ -12,6 +20,7 @@ const Twitter = () => {
 					width="400px"
 					height="550px"
 				/>
+				<PrjDetail.SubTitle>Overview</PrjDetail.SubTitle>
 				<PrjDetail.Desc>
 					Fullstack web Twitter Clone
 					<a
@@ -21,13 +30,6 @@ const Twitter = () => {
 					>
 						<PrjDetail.Logo src={`/images/git.png`} />
 					</a>
-					<ul>
-						<li>Firebase</li>
-						<li>Cloud Firestore</li>
-						<li>NoSQL Realtime, Query, Filter</li>
-						<li>Firebase Authentication</li>
-						<li>Google Cloud Storage</li>
-					</ul>
 				</PrjDetail.Desc>
 				<PrjDetail.SubTitle>Stacks</PrjDetail.SubTitle>
 				<PrjDetail.Lst>
@@ -42,6 +44,13 @@ const Twitter = () => {
 					<li>File Upload</li>
 					<li>Deploy</li>
 					<li>API Key Security</li>
+				</ul>
+				<ul>
+					<li>Firebase</li>
+					<li>Cloud Firestore</li>
+					<li>NoSQL Realtime, Query, Filter</li>
+					<li>Firebase Authentication</li>
+					<li>Google Cloud Storage</li>
 				</ul>
 			</PrjDetail.Container>
 		</PrjDetail.Wrapper>

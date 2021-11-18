@@ -11,30 +11,33 @@ export const SIntro = {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin: 4% 0 5% 0;
+		margin: 3% 0;
 	`,
 	Title: styled.div`
-		font-size: 30px;
+		font-size: 35px;
 		font-weight: 600;
-		margin: 1% 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 2%;
 	`,
 	ContentWrapper: styled.div`
 		display: flex;
-		flex-direction: row;
-		width: 80%;
-		height: 75%;
-		/* margin: 3% 0 1% 0; */
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 85%;
 	`,
 	DetailWrapper: styled.div`
 		display: flex;
-		flex-direction: column;
-
-		width: 80%;
+		align-items: center;
+		justify-content: center;
+		width: 89%;
 		height: 100%;
 	`,
 	IntroWrapper: styled.div`
 		display: flex;
-		flex-direction: column;
+
 		align-items: center;
 		width: 80%;
 		height: 75%;
@@ -42,23 +45,35 @@ export const SIntro = {
 		padding-bottom: 5%;
 	`,
 	Img: styled.img`
-		width: 60%;
-		height: 100%;
+		width: 200px;
+		/* height: 100%; */
+		border-radius: 50%;
 	`,
 	Intro: styled.div`
-		font-size: 22px;
-		margin: 2% 0;
-		line-height: 32px;
+		font-size: 17px;
+		margin: 2% 0 0 0;
+		line-height: 27px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 	`,
-	Desc: styled.div`
-		div {
-			margin: 5%;
-		}
-	`,
+	Desc: styled.div``,
 	Info: styled.span`
 		cursor: pointer;
 		&:hover {
 			color: #2358c9;
+		}
+	`,
+	Button: styled.div`
+		background-color: #5f27cd;
+		border-radius: 3px;
+		color: white;
+		padding: 2px 10px;
+		width: 97px;
+		margin-top: 1%;
+		&:hover {
+			cursor: pointer;
 		}
 	`,
 }
