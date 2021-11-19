@@ -1,16 +1,5 @@
 import { PrjDetail } from "../ProjectStyles"
-import {
-	REACT,
-	JS,
-	TYPESCRIPT,
-	APOLLO,
-	HOOK_FORM,
-	GRAPHQL,
-	HOOK,
-	STYLED,
-	EMOTION,
-	FIREBASE,
-} from "../../../colorCode"
+import { REACT, JS, FIREBASE } from "../../../colorCode"
 
 const Twitter = () => {
 	return (
@@ -47,24 +36,27 @@ const Twitter = () => {
 						</PrjDetail.Card>
 					</PrjDetail.CardWrapper>
 				</PrjDetail.Section>
-				&nbsp;
-				<PrjDetail.SubTitle>Main Features</PrjDetail.SubTitle>
-				<PrjDetail.Desc>
-					<li>Firebase Authentication</li>
-					<li>Tweet CRUD</li>
-					<li>Cloud Firestore</li>
-					<li>Email, Google, Github, Social Authentication</li>
-					<li>File Upload</li>
-				</PrjDetail.Desc>
-				<PrjDetail.SubTitle>
-					<PrjDetail.Logo
-						src={`https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/git.png?alt=media&token=64afad30-9a94-4518-a77b-8e8ff87310c0`}
-					/>
-					&nbsp;Github
-				</PrjDetail.SubTitle>
-				<a href="https://github.com/sarori/instaclone-web" target="_blank" rel="noreferrer">
-					https://github.com/sarori/instaclone-web
-				</a>
+				<PrjDetail.Section>
+					<PrjDetail.SubTitle>Main Features</PrjDetail.SubTitle>
+					<PrjDetail.Desc>
+						<li>Firebase Authentication</li>
+						<li>Tweet CRUD</li>
+						<li>Cloud Firestore</li>
+						<li>Email, Google, Github, Social Authentication</li>
+						<li>File Upload</li>
+					</PrjDetail.Desc>
+				</PrjDetail.Section>
+				<PrjDetail.Section>
+					<PrjDetail.SubTitle>
+						<PrjDetail.Logo
+							src={`https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/git.png?alt=media&token=64afad30-9a94-4518-a77b-8e8ff87310c0`}
+						/>
+						&nbsp;Github
+					</PrjDetail.SubTitle>
+					<a href="https://github.com/sarori/switter" target="_blank" rel="noreferrer">
+						https://github.com/sarori/switter
+					</a>
+				</PrjDetail.Section>
 			</PrjDetail.Container>
 		</PrjDetail.Wrapper>
 	)

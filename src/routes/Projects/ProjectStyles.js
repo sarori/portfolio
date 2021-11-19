@@ -69,11 +69,27 @@ export const PrjDetail = {
 		margin: 1% 0;
 	`,
 	Section: styled.div`
-		margin: 3% 0;
+		margin: 4% 0;
 	`,
 	Card: styled.span`
 		background-color: lightgray;
 		padding: 4px 8px;
+		border-radius: 4px;
+		font-weight: 600;
+		margin-right: 8px;
+	`,
+	GreyCardWrapper: styled.div`
+		display: flex;
+		flex-direction: row;
+		margin: 1% 0;
+		align-items: center;
+	`,
+	GreyCard: styled.div`
+		display: flex;
+		align-items: center;
+		background-color: lightgray;
+		padding: 3px 6px;
+		width: 62px;
 		border-radius: 4px;
 		font-weight: 600;
 		margin-right: 8px;
