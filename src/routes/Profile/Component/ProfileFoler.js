@@ -7,7 +7,10 @@ const ProfileFolder = () => {
 		<Folder.FolderWrapper>
 			<Folder.FolderContainer onClick={() => history.push(`/`)}>
 				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
 					<span>Home</span>
@@ -15,7 +18,10 @@ const ProfileFolder = () => {
 			</Folder.FolderContainer>
 			<Folder.FolderContainer onClick={() => history.push(`/profile/intro`)}>
 				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
 					<span>Intro</span>
@@ -23,7 +29,10 @@ const ProfileFolder = () => {
 			</Folder.FolderContainer>
 			<Folder.FolderContainer onClick={() => history.push(`/profile/me`)}>
 				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
 					<span>AboutMe</span>
@@ -31,7 +40,10 @@ const ProfileFolder = () => {
 			</Folder.FolderContainer>
 			<Folder.FolderContainer onClick={() => history.push(`/profile/career`)}>
 				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
 					<span>Career</span>
@@ -39,7 +51,10 @@ const ProfileFolder = () => {
 			</Folder.FolderContainer>
 			<Folder.FolderContainer onClick={() => history.push(`/profile/activities`)}>
 				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
 					<span>Activities</span>

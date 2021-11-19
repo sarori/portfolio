@@ -8,7 +8,11 @@ const Intro = () => {
 		<SIntro.Wrapper>
 			<SIntro.Container>
 				<SIntro.ContentWrapper>
-					<SIntro.Img src="/images/myprofile.jpeg" alt="myprofile" />
+					<SIntro.Img
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/myprofile.jpeg?alt=media&token=c308b9b1-6466-4066-95f9-0a7ea91b87d8"
+						alt="myprofile"
+					/>
+
 					<SIntro.DetailWrapper>
 						<SIntro.Desc>
 							<SIntro.Title>Hello, I'm Saro Park </SIntro.Title>

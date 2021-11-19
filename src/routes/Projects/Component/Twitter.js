@@ -1,4 +1,16 @@
 import { PrjDetail } from "../ProjectStyles"
+import {
+	REACT,
+	JS,
+	TYPESCRIPT,
+	APOLLO,
+	HOOK_FORM,
+	GRAPHQL,
+	HOOK,
+	STYLED,
+	EMOTION,
+	FIREBASE,
+} from "../../../colorCode"
 
 const Twitter = () => {
 	return (
@@ -9,12 +21,12 @@ const Twitter = () => {
 					<img
 						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/twitter.png?alt=media&token=e6a69fdc-c81e-47ec-ab50-9fa9e148dbcc"
 						alt="twitter"
-						height="40px"
-						width="40px"
+						height="50px"
+						width="50px"
 					></img>
 				</PrjDetail.Title>
-
-				<img
+				<PrjDetail.Desc>Fullstack web Twitter Clone</PrjDetail.Desc>
+				<PrjDetail.Preview
 					src={`/images/twittervideo.gif`}
 					alt={"twitter video"}
 					width="400px"
@@ -22,36 +34,37 @@ const Twitter = () => {
 				/>
 				<PrjDetail.SubTitle>Overview</PrjDetail.SubTitle>
 				<PrjDetail.Desc>
-					Fullstack web Twitter Clone
-					<a
-						href="https://github.com/sarori/instaclone-web"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<PrjDetail.Logo src={`/images/git.png`} />
-					</a>
+					Front-end web Twitter Clone with Firebase Real-time tweet CRUD, user
+					authentication and file upload with serverless Firebase architecture.
 				</PrjDetail.Desc>
-				<PrjDetail.SubTitle>Stacks</PrjDetail.SubTitle>
-				<PrjDetail.Lst>
-					<li>Language : React.js, HTML/CSS/JavaScript</li>
-				</PrjDetail.Lst>
+				<PrjDetail.Section>
+					<PrjDetail.SubTitle>Stacks</PrjDetail.SubTitle>
+					<PrjDetail.CardWrapper>
+						<PrjDetail.Card style={{ backgroundColor: JS }}>JavaScript</PrjDetail.Card>
+						<PrjDetail.Card style={{ backgroundColor: REACT }}>React.js</PrjDetail.Card>
+						<PrjDetail.Card style={{ backgroundColor: FIREBASE }}>
+							Firebase
+						</PrjDetail.Card>
+					</PrjDetail.CardWrapper>
+				</PrjDetail.Section>
+				&nbsp;
 				<PrjDetail.SubTitle>Main Features</PrjDetail.SubTitle>
-				<ul>
-					<li>Email, Google, Github, Social Authentication</li>
-					<li>Tweet CRUD</li>
-					<li>Protected Pages</li>
-					<li>Profile Page</li>
-					<li>File Upload</li>
-					<li>Deploy</li>
-					<li>API Key Security</li>
-				</ul>
-				<ul>
-					<li>Firebase</li>
-					<li>Cloud Firestore</li>
-					<li>NoSQL Realtime, Query, Filter</li>
+				<PrjDetail.Desc>
 					<li>Firebase Authentication</li>
-					<li>Google Cloud Storage</li>
-				</ul>
+					<li>Tweet CRUD</li>
+					<li>Cloud Firestore</li>
+					<li>Email, Google, Github, Social Authentication</li>
+					<li>File Upload</li>
+				</PrjDetail.Desc>
+				<PrjDetail.SubTitle>
+					<PrjDetail.Logo
+						src={`https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/git.png?alt=media&token=64afad30-9a94-4518-a77b-8e8ff87310c0`}
+					/>
+					&nbsp;Github
+				</PrjDetail.SubTitle>
+				<a href="https://github.com/sarori/instaclone-web" target="_blank" rel="noreferrer">
+					https://github.com/sarori/instaclone-web
+				</a>
 			</PrjDetail.Container>
 		</PrjDetail.Wrapper>
 	)

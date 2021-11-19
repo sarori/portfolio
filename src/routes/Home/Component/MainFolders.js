@@ -7,7 +7,10 @@ const MainFolders = () => {
 		<Folder.FolderWrapper>
 			<Folder.FolderContainer onClick={() => history.push(`/`)}>
 				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
 					<span>Home</span>
@@ -15,7 +18,10 @@ const MainFolders = () => {
 			</Folder.FolderContainer>
 			<Folder.FolderContainer onClick={() => history.push(`/profile/intro`)}>
 				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
 					<span>Profile</span>
@@ -23,7 +29,10 @@ const MainFolders = () => {
 			</Folder.FolderContainer>
 			<Folder.FolderContainer onClick={() => history.push(`/projects/mainproject`)}>
 				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
 					<span>Projects</span>
@@ -31,7 +40,10 @@ const MainFolders = () => {
 			</Folder.FolderContainer>
 			<Folder.FolderContainer onClick={() => history.push(`/contact`)}>
 				<Folder.FolderimgDiv>
-					<Folder.Folderimg src="/images/folder.png" alt="folder" />
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
 				</Folder.FolderimgDiv>
 				<Folder.FolderName>
 					<span>Contact</span>

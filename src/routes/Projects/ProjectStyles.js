@@ -39,33 +39,50 @@ export const Prj = {
 export const PrjDetail = {
 	Wrapper: styled.div`
 		width: 100%;
-		height: 100%;
 		display: flex;
+		align-items: center;
 		justify-content: center;
 	`,
 	Container: styled.div`
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		width: 90%;
+		margin-bottom: 5%;
 	`,
 	Title: styled.div`
-		font-size: 30px;
-		font-weight: 800;
-		color: #0652dd;
+		font-size: 45px;
+		font-weight: 500;
+		font-family: sans-serif;
+		letter-spacing: 3px;
+		margin: 5% 0 2% 0;
 	`,
 	Desc: styled.div`
-		font-size: 20px;
+		letter-spacing: 0.9px;
+		font-size: 19px;
 	`,
 	Logo: styled.img`
 		width: 30px;
-		height: 30px;
 	`,
-	Lst: styled.ul`
-		font-size: 19px;
-	`,
+
 	SubTitle: styled.div`
-		font-size: 27px;
+		font-size: 28px;
 		font-weight: 700;
-		color: #feca57;
+		color: #273c75;
+		margin: 1% 0;
+	`,
+	Section: styled.div`
+		margin: 3% 0;
+	`,
+	Card: styled.span`
+		background-color: lightgray;
+		padding: 4px 8px;
+		border-radius: 4px;
+		font-weight: 600;
+		margin-right: 8px;
+	`,
+	CardWrapper: styled.div`
+		margin-top: 2%;
+	`,
+	Preview: styled.img`
+		display: flex;
+		margin: 2% auto;
 	`,
 }
