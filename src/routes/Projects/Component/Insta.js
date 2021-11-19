@@ -30,11 +30,7 @@ const Insta = () => {
 					width="400px"
 					height="550px"
 				/>
-				{/* <PrjDetail.SubTitle>Overview</PrjDetail.SubTitle>
-				<PrjDetail.Desc>
-					Front-end web Twitter Clone with Firebase Real-time tweet CRUD, user
-					authentication and file upload with serverless Firebase architecture.
-				</PrjDetail.Desc> */}
+
 				<PrjDetail.Section>
 					<PrjDetail.SubTitle>Stacks</PrjDetail.SubTitle>
 					<PrjDetail.CardWrapper>
@@ -42,9 +38,7 @@ const Insta = () => {
 							Typescript
 						</PrjDetail.Card>
 						<PrjDetail.Card style={{ backgroundColor: REACT }}>React.js</PrjDetail.Card>
-						<PrjDetail.Card style={{ backgroundColor: HOOK }}>
-							React Hooks
-						</PrjDetail.Card>
+						<PrjDetail.Card style={{ backgroundColor: HOOK }}>NodeJS</PrjDetail.Card>
 						<PrjDetail.Card style={{ backgroundColor: GRAPHQL }}>
 							GraphQL
 						</PrjDetail.Card>

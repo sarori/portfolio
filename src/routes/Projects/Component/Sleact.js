@@ -6,7 +6,7 @@ const Sleact = () => {
 		<PrjDetail.Wrapper>
 			<PrjDetail.Container>
 				<PrjDetail.Title>
-					Sleact Clone&nbsp;
+					Slack Clone&nbsp;
 					<img
 						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/slack.png?alt=media&token=b707c3b0-a331-457d-ad2b-84c60c928195"
 						alt="twitter"
