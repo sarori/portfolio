@@ -102,5 +102,6 @@ export const PrjDetail = {
 	Preview: styled.img`
 		display: flex;
 		margin: 2% auto;
+		object-fit: contain;
 	`,
 }

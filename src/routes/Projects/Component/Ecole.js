@@ -10,12 +10,12 @@ const Ecole = () => {
 					Ecole 42&nbsp;
 					<img
 						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/42small.png?alt=media&token=96053721-ff82-4587-9e87-b3ac8f0317c5"
-						alt="insta"
+						alt="logo"
 						height="50px"
 						width="50px"
 					></img>
 				</PrjDetail.Title>
-				<PrjDetail.Desc>All projects I have done in ecole 42 with C.</PrjDetail.Desc>
+				<PrjDetail.Desc>All projects I have done in ecole 42.</PrjDetail.Desc>
 				<PrjDetail.Preview
 					src={`https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/smsw.png?alt=media&token=83a59169-9bc6-400b-9e2c-24622190fb21`}
 					alt={"SMSW"}

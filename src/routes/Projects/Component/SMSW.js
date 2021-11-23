@@ -41,6 +41,9 @@ const SMSW = () => {
 				<PrjDetail.Section>
 					<PrjDetail.SubTitle>Main Features</PrjDetail.SubTitle>
 					<PrjDetail.Desc>
+						<li>
+							Collaborating with designer and backend developer - zeplin, Adobe XD
+						</li>
 						<li>User SignUp / LogIn / Profile - Email user verification</li>
 						<li>CMS</li>
 						<li>Realtime Facility Reservation System</li>

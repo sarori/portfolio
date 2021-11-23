@@ -16,10 +16,11 @@ const Sleact = () => {
 				</PrjDetail.Title>
 				<PrjDetail.Desc>Front-end web Slack Clone</PrjDetail.Desc>
 				<PrjDetail.Preview
-					src={`/images/twittervideo.gif`}
+					src={`https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/slackvideo.gif?alt=media&token=a67f4ab4-6ba6-4c7d-bbc5-b4bd81642cd7`}
 					alt={"twitter video"}
-					width="400px"
-					height="550px"
+					width="85%"
+					// height="
+					// 400px"
 				/>
 				<PrjDetail.SubTitle>Overview</PrjDetail.SubTitle>
 				<PrjDetail.Desc>
