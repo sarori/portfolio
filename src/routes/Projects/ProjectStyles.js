@@ -63,13 +63,25 @@ export const PrjDetail = {
 	Logo: styled.img`
 		width: 30px;
 	`,
-
 	SubTitle: styled.div`
 		font-size: 28px;
 		font-weight: 700;
-		color: #273c75;
 		margin: 1% 0;
 	`,
+	PrjWrapper: styled.div`
+		letter-spacing: 0.9px;
+		font-size: 19px;
+		margin-bottom: 2%;
+	`,
+
+	PrjTitle: styled.div`
+		font-size: 23px;
+		font-weight: 700;
+		color: #273c75;
+		/* margin: 0 0  0; */
+	`,
+	PrjDesc: styled.div``,
+
 	Section: styled.div`
 		margin: 4% 0;
 	`,

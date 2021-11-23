@@ -34,24 +34,58 @@ const Ecole = () => {
 				</PrjDetail.Section>
 				<PrjDetail.Section>
 					<PrjDetail.SubTitle>Main Features</PrjDetail.SubTitle>
+					<PrjDetail.PrjWrapper>
+						<PrjDetail.PrjTitle>Libft</PrjDetail.PrjTitle>
+						<PrjDetail.PrjDesc>
+							Libft - recreated Standard C library functions.
+						</PrjDetail.PrjDesc>
+					</PrjDetail.PrjWrapper>
+					<PrjDetail.PrjWrapper>
+						<PrjDetail.PrjTitle>Get_Next_Line</PrjDetail.PrjTitle>
+						<PrjDetail.PrjDesc>
+							a project to recode the getline(3) C standard Libarary functions.
+							&nbsp;&nbsp;- Allowed to use read, malloc, free functions.
+						</PrjDetail.PrjDesc>
+					</PrjDetail.PrjWrapper>
 					<PrjDetail.Desc>
-						<li>User SignUp / LogIn / Profile - Email user verification</li>
-						<li>CMS</li>
-						<li>Realtime Facility Reservation System</li>
-						<li>Email, Google, Github, Social Authentication</li>
-						<li>File Upload</li>
+						<li>Libft - recreated Standard C library functions.</li>
+
+						<li>
+							Get_Next_Line - a project to recode the getline(3) C standard Libarary
+							functions. - Allowed to use read, malloc, free functions.
+						</li>
+						<li>
+							Fillit - a project is related to find a way to assemble some given
+							Tetriminos in to the smallest possible square. - Recursive backtracking
+							algorithm - Optimization
+						</li>
+						<li>Ft_printf - recreated the Standard C Library printf() functions.</li>
+						<li>Init - System and Network Administration Project - Php Piscine</li>
+						<li>Php Piscine</li>
+						<li>
+							Ft_ssl_md5 - C implementation of the OpenSSL Library, with the md5 and
+							sha256 functions.
+						</li>
+						<li>
+							Docker - a project in the system and network administration branch for
+							how to use containers to deploy code in different operating systems or
+							with different configurations.
+						</li>
+						<li>
+							Filler - purpose of project is implementing a player and playing a game
+							against school's VM machine player by using Heatmap algorithm.
+						</li>
 					</PrjDetail.Desc>
 				</PrjDetail.Section>
 				<PrjDetail.Section>
 					<PrjDetail.SubTitle>
-						{/* <PrjDetail.Logo
+						<PrjDetail.Logo
 							src={`https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/git.png?alt=media&token=64afad30-9a94-4518-a77b-8e8ff87310c0`}
-						/> */}
-						<GrGlobe size={23} />
-						&nbsp;Website
+						/>
+						&nbsp;Github &nbsp;
 					</PrjDetail.SubTitle>
-					<a href="https://sw.sunmoon.ac.kr/" target="_blank" rel="noreferrer">
-						https://sw.sunmoon.ac.kr/
+					<a href="https://github.com/sarori/42-Paris" target="_blank" rel="noreferrer">
+						https://github.com/sarori/42-Paris
 					</a>
 				</PrjDetail.Section>
 			</PrjDetail.Container>
