@@ -80,8 +80,12 @@ export const PrjDetail = {
 		color: #273c75;
 		/* margin: 0 0  0; */
 	`,
-	PrjDesc: styled.div``,
-
+	PrjDesc: styled.div`
+		margin: 8px 0;
+	`,
+	DescBlock: styled.div`
+		/* margin-top: 20px; */
+	`,
 	Section: styled.div`
 		margin: 4% 0;
 	`,

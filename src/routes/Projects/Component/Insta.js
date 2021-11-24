@@ -24,12 +24,12 @@ const Insta = () => {
 					></img>
 				</PrjDetail.Title>
 				<PrjDetail.Desc>Fullstack web Instagram Clone</PrjDetail.Desc>
-				<PrjDetail.Preview
+				{/* <PrjDetail.Preview
 					src={`/images/twittervideo.gif`}
 					alt={"twitter video"}
 					width="400px"
 					height="550px"
-				/>
+				/> */}
 
 				<PrjDetail.Section>
 					<PrjDetail.SubTitle>Stacks</PrjDetail.SubTitle>

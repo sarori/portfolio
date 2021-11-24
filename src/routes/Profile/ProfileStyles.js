@@ -11,7 +11,7 @@ export const SIntro = {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin: 3% 0;
+		justify-content: center;
 	`,
 	Title: styled.div`
 		font-size: 35px;
@@ -19,7 +19,6 @@ export const SIntro = {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin-top: 2%;
 	`,
 	ContentWrapper: styled.div`
 		display: flex;
@@ -34,6 +33,7 @@ export const SIntro = {
 		justify-content: center;
 		width: 89%;
 		height: 100%;
+		margin-top: 3%;
 	`,
 	IntroWrapper: styled.div`
 		display: flex;
@@ -57,8 +57,13 @@ export const SIntro = {
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
+		a {
+			margin-top: 2%;
+		}
 	`,
-	Desc: styled.div``,
+	Desc: styled.div`
+		/* margin-top: 2%; */
+	`,
 	Info: styled.span`
 		cursor: pointer;
 		&:hover {
@@ -71,7 +76,6 @@ export const SIntro = {
 		color: white;
 		padding: 2px 10px;
 		width: 97px;
-		margin-top: 1%;
 		&:hover {
 			cursor: pointer;
 		}

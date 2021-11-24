@@ -26,7 +26,14 @@ const Intro = () => {
 									player with good communicating and collaborating skills. I
 									communicate with code and turn ideas into reality.{" "}
 								</div>
-								<SIntro.Button>Download CV</SIntro.Button>
+								<a
+									href="https://github.com/sarori/42-Paris"
+									target="_blank"
+									rel="noreferrer"
+									download
+								>
+									<SIntro.Button>Download CV</SIntro.Button>
+								</a>
 							</SIntro.Intro>
 						</SIntro.Desc>
 					</SIntro.DetailWrapper>

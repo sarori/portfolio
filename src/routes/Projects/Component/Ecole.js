@@ -1,5 +1,5 @@
 import { PrjDetail } from "../ProjectStyles"
-import { C } from "../../../colorCode"
+import { C, CSS, HTML, JS, NODEJS } from "../../../colorCode"
 import { GrGlobe } from "react-icons/gr"
 
 const Ecole = () => {
@@ -16,20 +16,21 @@ const Ecole = () => {
 					></img>
 				</PrjDetail.Title>
 				<PrjDetail.Desc>All projects I have done in ecole 42.</PrjDetail.Desc>
-				<PrjDetail.Preview
-					src={`https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/smsw.png?alt=media&token=83a59169-9bc6-400b-9e2c-24622190fb21`}
-					alt={"SMSW"}
-					width="700px"
-					height="550px"
-				/>
-				<PrjDetail.SubTitle>Overview</PrjDetail.SubTitle>
-				<PrjDetail.Desc>
-					Taken a role as a front-end developer, implemented webpage. SPA react website.
-				</PrjDetail.Desc>
+				<PrjDetail.Section>
+					<PrjDetail.SubTitle>Overview</PrjDetail.SubTitle>
+					<PrjDetail.Desc>
+						Taken a role as a front-end developer, implemented webpage. SPA react
+						website.
+					</PrjDetail.Desc>
+				</PrjDetail.Section>
 				<PrjDetail.Section>
 					<PrjDetail.SubTitle>Stacks</PrjDetail.SubTitle>
 					<PrjDetail.CardWrapper>
 						<PrjDetail.Card style={{ backgroundColor: C }}>C</PrjDetail.Card>
+						<PrjDetail.Card style={{ backgroundColor: HTML }}>HTML</PrjDetail.Card>
+						<PrjDetail.Card style={{ backgroundColor: CSS }}>CSS</PrjDetail.Card>
+						<PrjDetail.Card style={{ backgroundColor: JS }}>Javascript</PrjDetail.Card>
+						<PrjDetail.Card style={{ backgroundColor: NODEJS }}>Node.js</PrjDetail.Card>
 					</PrjDetail.CardWrapper>
 				</PrjDetail.Section>
 				<PrjDetail.Section>
@@ -37,45 +38,85 @@ const Ecole = () => {
 					<PrjDetail.PrjWrapper>
 						<PrjDetail.PrjTitle>Libft</PrjDetail.PrjTitle>
 						<PrjDetail.PrjDesc>
-							Libft - recreated Standard C library functions.
+							42Libft is an open source C library with over 200++ functions. I
+							recreated Standard C library functions.(stdio, stdlib, string, ctype,
+							math)
 						</PrjDetail.PrjDesc>
 					</PrjDetail.PrjWrapper>
 					<PrjDetail.PrjWrapper>
 						<PrjDetail.PrjTitle>Get_Next_Line</PrjDetail.PrjTitle>
+						<PrjDetail.DescBlock>
+							<PrjDetail.PrjDesc>
+								a project to recode the getline(3) C standard Libarary functions.
+							</PrjDetail.PrjDesc>
+							<li style={{ listStyle: "none" }}>
+								&nbsp;&nbsp;&nbsp;&nbsp;- Allowed to use read, malloc, free
+								functions.
+							</li>
+						</PrjDetail.DescBlock>
+					</PrjDetail.PrjWrapper>
+
+					<PrjDetail.PrjWrapper>
+						<PrjDetail.PrjTitle>Fillit</PrjDetail.PrjTitle>
+						<PrjDetail.DescBlock>
+							<PrjDetail.PrjDesc>
+								a project is related to find a way to assemble some given Tetriminos
+								in to the smallest possible square.
+							</PrjDetail.PrjDesc>
+							<li style={{ listStyle: "none", marginBottom: "5px" }}>
+								&nbsp;&nbsp;&nbsp;&nbsp;- Recursive backtracking algorithm
+							</li>
+							<li style={{ listStyle: "none" }}>
+								&nbsp;&nbsp;&nbsp;&nbsp;- Optimization
+							</li>
+						</PrjDetail.DescBlock>
+					</PrjDetail.PrjWrapper>
+
+					<PrjDetail.PrjWrapper>
+						<PrjDetail.PrjTitle>Ft_printf</PrjDetail.PrjTitle>
 						<PrjDetail.PrjDesc>
-							a project to recode the getline(3) C standard Libarary functions.
-							&nbsp;&nbsp;- Allowed to use read, malloc, free functions.
+							Recreated the Standard C Library printf() functions.
 						</PrjDetail.PrjDesc>
 					</PrjDetail.PrjWrapper>
-					<PrjDetail.Desc>
-						<li>Libft - recreated Standard C library functions.</li>
 
-						<li>
-							Get_Next_Line - a project to recode the getline(3) C standard Libarary
-							functions. - Allowed to use read, malloc, free functions.
-						</li>
-						<li>
-							Fillit - a project is related to find a way to assemble some given
-							Tetriminos in to the smallest possible square. - Recursive backtracking
-							algorithm - Optimization
-						</li>
-						<li>Ft_printf - recreated the Standard C Library printf() functions.</li>
-						<li>Init - System and Network Administration Project - Php Piscine</li>
-						<li>Php Piscine</li>
-						<li>
-							Ft_ssl_md5 - C implementation of the OpenSSL Library, with the md5 and
-							sha256 functions.
-						</li>
-						<li>
-							Docker - a project in the system and network administration branch for
-							how to use containers to deploy code in different operating systems or
-							with different configurations.
-						</li>
-						<li>
-							Filler - purpose of project is implementing a player and playing a game
-							against school's VM machine player by using Heatmap algorithm.
-						</li>
-					</PrjDetail.Desc>
+					<PrjDetail.PrjWrapper>
+						<PrjDetail.PrjTitle>Init</PrjDetail.PrjTitle>
+						<PrjDetail.PrjDesc>
+							System and Network Administration Project
+						</PrjDetail.PrjDesc>
+					</PrjDetail.PrjWrapper>
+
+					<PrjDetail.PrjWrapper>
+						<PrjDetail.PrjTitle>Php Piscine</PrjDetail.PrjTitle>
+						<PrjDetail.PrjDesc>
+							Learned basic web with Node.js / Mysql / Html / Css / Javascript
+						</PrjDetail.PrjDesc>
+					</PrjDetail.PrjWrapper>
+
+					<PrjDetail.PrjWrapper>
+						<PrjDetail.PrjTitle>Ft_ssl_md5</PrjDetail.PrjTitle>
+						<PrjDetail.PrjDesc>
+							C implementation of the OpenSSL Library, with the md5 and sha256
+							functions.
+						</PrjDetail.PrjDesc>
+					</PrjDetail.PrjWrapper>
+
+					<PrjDetail.PrjWrapper>
+						<PrjDetail.PrjTitle>Docker</PrjDetail.PrjTitle>
+						<PrjDetail.PrjDesc>
+							a project in the system and network administration branch for how to use
+							containers to deploy code in different operating systems or with
+							different configurations.
+						</PrjDetail.PrjDesc>
+					</PrjDetail.PrjWrapper>
+
+					<PrjDetail.PrjWrapper>
+						<PrjDetail.PrjTitle>Filler</PrjDetail.PrjTitle>
+						<PrjDetail.PrjDesc>
+							purpose of project is implementing a player and playing a game against
+							school's VM machine player by using Heatmap algorithm.
+						</PrjDetail.PrjDesc>
+					</PrjDetail.PrjWrapper>
 				</PrjDetail.Section>
 				<PrjDetail.Section>
 					<PrjDetail.SubTitle>

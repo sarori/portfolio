@@ -48,7 +48,6 @@ export const Folder = {
 	FolderName: styled.div`
 		display: flex;
 		justify-content: center;
-
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
 			Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 		font-size: 14px;
@@ -84,7 +83,7 @@ export const FileScreen = {
 	HomeBody: styled.div`
 		width: 100%;
 		height: 94%;
-		background-color: black;
+		background-color: rgb(37, 37, 38);
 		border-bottom-left-radius: 8px;
 		border-bottom-right-radius: 8px;
 		img {
@@ -107,7 +106,6 @@ export const FileScreen = {
 	RoundBtn: styled.div`
 		width: 15px;
 		height: 15px;
-
 		border-radius: 50%;
 		margin: 5px;
 		&:first-child {
