@@ -27,7 +27,7 @@ const Intro = () => {
 									communicate with code and turn ideas into reality.{" "}
 								</div>
 								<a
-									href="https://github.com/sarori/42-Paris"
+									href="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/CV_Saro_Park.pdf?alt=media&token=151ae7d1-3003-4866-87ec-18c09263651d"
 									target="_blank"
 									rel="noreferrer"
 									download

@@ -15,7 +15,6 @@ export const Container = styled.div`
 export const LeftContainer = styled.div`
 	width: 90%;
 	height: 100%;
-	border: 1px solid black;
 `
 export const RightContainer = styled.div`
 	width: 10%;

@@ -47,13 +47,13 @@ const MainContact = () => {
 							</Contact.TextWrapper>
 						</Contact.BRight>
 						<Contact.BRight
-							href="mailto:salo3678@gmail.com"
+							href="mailto:saropark.dev@gmail.com"
 							target="_blank"
 							rel="noopener noreferrer"
-							style={{ width: "230px" }}
+							style={{ width: "260px" }}
 						>
 							<Contact.TextWrapper>
-								<Contact.Text>salo3678@gmail.com&nbsp;&nbsp;</Contact.Text>{" "}
+								<Contact.Text>saropark.dev@gmail.com&nbsp;&nbsp;</Contact.Text>{" "}
 								<img
 									src={
 										"https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/mail.png?alt=media&token=d7f11aac-88ca-47ed-b3e1-44132171f4db"

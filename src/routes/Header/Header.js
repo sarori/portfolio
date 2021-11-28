@@ -38,14 +38,15 @@ const Header = () => {
 						<DropdownBtn>Projects</DropdownBtn>
 						<DropdownContent>
 							<div onClick={() => history?.push(`/projects/all`)}>All Projects</div>
+							<div onClick={() => history?.push(`/projects/smsw`)}>SMSW</div>
+
 							<div onClick={() => history?.push(`/projects/instaclone`)}>
 								Instaclone
 							</div>
 							<div onClick={() => history?.push(`/projects/sleact`)}>Sleact</div>
 							<div onClick={() => history?.push(`/projects/twitter`)}>Twitter</div>
-							<div onClick={() => history?.push(`/projects/smsw`)}>SMSW</div>
 							<div onClick={() => history?.push(`/projects/ecole`)}>42</div>
-							<div onClick={() => history?.push(`/projects/others`)}>others</div>
+							{/* <div onClick={() => history?.push(`/projects/others`)}>others</div> */}
 						</DropdownContent>
 					</DropdownLst>
 					<Lst>
