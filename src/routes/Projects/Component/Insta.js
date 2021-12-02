@@ -1,14 +1,5 @@
 import { PrjDetail } from "../ProjectStyles"
-import {
-	REACT,
-	TYPESCRIPT,
-	APOLLO,
-	GRAPHQL,
-	HOOK,
-	STYLED,
-	PRISMA,
-	POSTGRESQL,
-} from "../../../colorCode"
+import { REACT, TYPESCRIPT, APOLLO, GRAPHQL, HOOK, PRISMA, POSTGRESQL } from "../../../colorCode"
 
 const Insta = () => {
 	return (
@@ -46,9 +37,6 @@ const Insta = () => {
 						<PrjDetail.Card style={{ backgroundColor: PRISMA }}>Prisma</PrjDetail.Card>
 						<PrjDetail.Card style={{ backgroundColor: POSTGRESQL }}>
 							PostgreSQL
-						</PrjDetail.Card>
-						<PrjDetail.Card style={{ backgroundColor: STYLED }}>
-							Styled Components
 						</PrjDetail.Card>
 					</PrjDetail.CardWrapper>
 				</PrjDetail.Section>

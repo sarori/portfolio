@@ -37,6 +37,7 @@ export const Lst = styled.li`
 	text-align: center;
 	padding: 8px 16px;
 	text-decoration: none;
+	cursor: pointer;
 	&:hover {
 		display: block;
 		background-color: #b2bec3;
@@ -54,6 +55,7 @@ export const DropdownContent = styled.div`
 	z-index: 1;
 	border-radius: 4px;
 	margin-top: -4px;
+	cursor: pointer;
 	div {
 		color: white;
 
@@ -85,6 +87,7 @@ export const DropdownBtn = styled.div`
 	text-align: center;
 	padding: 8px 16px;
 	text-decoration: none;
+	cursor: pointer;
 	&:hover {
 		background-color: #b2bec3;
 		opacity: 99%;

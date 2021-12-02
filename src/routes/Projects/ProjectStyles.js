@@ -106,10 +106,12 @@ export const PrjDetail = {
 		display: flex;
 		align-items: center;
 		background-color: lightgray;
-		padding: 3px 6px;
-		width: 62px;
+		padding: 6px 8px;
+		width: 65px;
+		justify-content: center;
 		border-radius: 4px;
 		font-weight: 600;
+		line-height: 1.3;
 		margin-right: 8px;
 	`,
 	CardWrapper: styled.div`
