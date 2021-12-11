@@ -62,6 +62,22 @@ const MainContact = () => {
 								/>
 							</Contact.TextWrapper>
 						</Contact.BRight>
+						<Contact.BRight
+							href="https://www.linkedin.com/in/saro-park-741132194/"
+							target="_blank"
+							rel="noopener noreferrer"
+							style={{ width: "130px" }}
+						>
+							<Contact.TextWrapper>
+								<Contact.Text>LinkedIn&nbsp;&nbsp;</Contact.Text>{" "}
+								<img
+									src={
+										"https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/linkedin.png?alt=media&token=05d01cba-962e-445c-9e87-755685550e05"
+									}
+									alt="facebook"
+								/>
+							</Contact.TextWrapper>
+						</Contact.BRight>
 
 						<Contact.BRight
 							href="https://www.facebook.com/sarori.saro.park/"

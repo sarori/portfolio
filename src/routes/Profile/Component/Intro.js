@@ -1,9 +1,6 @@
-import { useHistory } from "react-router-dom"
-import { Folder } from "../../SharedStyles"
 import { SIntro } from "../ProfileStyles"
 
 const Intro = () => {
-	const history = useHistory()
 	return (
 		<SIntro.Wrapper>
 			<SIntro.Container>
@@ -27,7 +24,7 @@ const Intro = () => {
 									communicate with code and turn ideas into reality.{" "}
 								</div>
 								<a
-									href="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/CV_Saro_Park.pdf?alt=media&token=f9eea403-e7fd-40c1-842a-bca4f26ab795"
+									href="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/CV_Saro_Park.pdf?alt=media&token=a5fb0dc0-52bc-45d8-844e-1235e7ae8642"
 									target="_blank"
 									rel="noreferrer"
 									download
