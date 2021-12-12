@@ -32,6 +32,7 @@ const Header = () => {
 							<div onClick={() => history.push(`/profile/activities`)}>
 								Activities
 							</div>
+							<div onClick={() => history.push(`/profile/awards`)}>Awards</div>
 						</DropdownContent>
 					</DropdownLst>
 					<DropdownLst>
@@ -46,7 +47,6 @@ const Header = () => {
 							<div onClick={() => history?.push(`/projects/sleact`)}>Sleact</div>
 							<div onClick={() => history?.push(`/projects/twitter`)}>Twitter</div>
 							<div onClick={() => history?.push(`/projects/ecole`)}>42</div>
-							{/* <div onClick={() => history?.push(`/projects/others`)}>others</div> */}
 						</DropdownContent>
 					</DropdownLst>
 					<Lst>
