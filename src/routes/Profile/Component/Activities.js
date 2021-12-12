@@ -49,6 +49,26 @@ const Activities = () => {
 						</CareerStyle.Desc>
 					</CareerStyle.Box>
 					<CareerStyle.Box>
+						<CareerStyle.Title>Research experience abroad</CareerStyle.Title>
+						<CareerStyle.BoxRow></CareerStyle.BoxRow>
+						<CareerStyle.Period>2016.07</CareerStyle.Period>
+						<CareerStyle.Desc>
+							<ul>
+								<li>
+									A study was conducted with 4 team members on the improvement of
+									water purification using banana peel.
+								</li>
+								<li>
+									Received an overseas research grant of $10,000 from Woori Bank.
+								</li>
+								<li>
+									Contacted relevant institutions and professors and visited in
+									the US and Canada for two weeks for advice and research.
+								</li>
+							</ul>
+						</CareerStyle.Desc>
+					</CareerStyle.Box>
+					<CareerStyle.Box>
 						<CareerStyle.Title>
 							Volunteer | Office of International Affairs, Hanyang University
 						</CareerStyle.Title>
@@ -61,6 +81,7 @@ const Activities = () => {
 									exchange students
 								</li>
 								<li>Helped foreign students adapt to school and Korean culture.</li>
+								<li>Awarded the Excellent prize (Report)</li>
 							</ul>
 						</CareerStyle.Desc>
 					</CareerStyle.Box>

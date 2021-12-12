@@ -60,6 +60,17 @@ const ProfileFolder = () => {
 					<span>Activities</span>
 				</Folder.FolderName>
 			</Folder.FolderContainer>
+			<Folder.FolderContainer onClick={() => history.push(`/profile/awards`)}>
+				<Folder.FolderimgDiv>
+					<Folder.Folderimg
+						src="https://firebasestorage.googleapis.com/v0/b/resume-be9ab.appspot.com/o/folder.png?alt=media&token=dc9d21c9-db86-4e4f-9151-24abf941324f"
+						alt="folder"
+					/>
+				</Folder.FolderimgDiv>
+				<Folder.FolderName>
+					<span>Awards</span>
+				</Folder.FolderName>
+			</Folder.FolderContainer>
 		</Folder.FolderWrapper>
 	)
 }

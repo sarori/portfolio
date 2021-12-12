@@ -4,6 +4,7 @@ import Activities from "./Activities"
 import Career from "./Career"
 import Intro from "./Intro"
 import Me from "./Me"
+import Awards from "./Awards"
 
 const ProfileCase = (param) => {
 	switch (param) {
@@ -18,6 +19,9 @@ const ProfileCase = (param) => {
 			break
 		case "activities":
 			return <Activities />
+			break
+		case "awards":
+			return <Awards />
 			break
 		default:
 			return <Intro />
