@@ -20,7 +20,8 @@ const Activities = () => {
 									managed by 42 students union.
 								</li>
 								<li>
-									I worked with co-workers came from France, Belgium and Canada.
+									Worked with co-workers who have various backgrounds and
+									communicate with them
 								</li>
 								<li>
 									I learned cooperation and problem-solving skills by handling
@@ -54,16 +55,13 @@ const Activities = () => {
 						<CareerStyle.Period>2016.07</CareerStyle.Period>
 						<CareerStyle.Desc>
 							<ul>
+								<li>Water Purification Method by Using Banana Peel</li>
+								<li>Worked as main researcher of the team</li>
+								<li>Funded 10,000 USD from Woori Bank ltd co.,</li>
 								<li>
-									A study was conducted with 4 team members on the improvement of
-									water purification using banana peel.
-								</li>
-								<li>
-									Received an overseas research grant of $10,000 from Woori Bank.
-								</li>
-								<li>
-									Contacted relevant institutions and professors and visited in
-									the US and Canada for two weeks for advice and research.
+									Contacted relevant institutions in North America, involved
+									professors and visited them for two weeks getting advice and
+									guidance.
 								</li>
 							</ul>
 						</CareerStyle.Desc>
@@ -77,10 +75,13 @@ const Activities = () => {
 						<CareerStyle.Desc>
 							<ul>
 								<li>
-									Interpretation and cultural delivery service for foreign
-									exchange students
+									Worked as an interpretation and cultural delivery service for
+									foreign exchange students
 								</li>
-								<li>Helped foreign students adapt to school and Korean culture.</li>
+								<li>
+									Helped foreign exchange students for adapting them more easily
+									to the school and their Korean life.
+								</li>
 								<li>Awarded the Excellent prize (Report)</li>
 							</ul>
 						</CareerStyle.Desc>

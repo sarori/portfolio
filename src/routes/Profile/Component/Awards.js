@@ -22,8 +22,8 @@ const Awards = () => {
 
 						<CareerStyle.Desc>
 							<CareerStyle.Main>
-								Proposal of IoT device that adjusts temperature according to user's
-								body temperature{" "}
+								Awarded the gold medal in Invent Idea for Fourth Industrial
+								Revolution part <br />- User's body temperature connected IoT device
 							</CareerStyle.Main>
 							<ul>
 								<li>Awarded the gold prize</li>
@@ -64,11 +64,11 @@ const Awards = () => {
 
 						<CareerStyle.Desc>
 							<CareerStyle.Main>
-								Appropriate pet insurance premium calculation method through pet
-								health care big data analysis.
+								Awarded the prize in Insurance Finance Part <br />- Pet insurance
+								price calculation method depending on big data
 							</CareerStyle.Main>
 							<ul>
-								<li>Awarded the Encouragement prize</li>
+								<li>Awarded the prize</li>
 
 								<li>
 									Certificate&nbsp;&nbsp;->{" "}
@@ -87,7 +87,7 @@ const Awards = () => {
 
 					<CareerStyle.Box>
 						<CareerStyle.Title>
-							Embedded software optimization contest
+							Seoul National Univ. Embedded Software Optimization Contest
 						</CareerStyle.Title>
 						<CareerStyle.BoxRow></CareerStyle.BoxRow>
 
