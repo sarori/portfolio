@@ -17,13 +17,6 @@ const Ecole = () => {
 				</PrjDetail.Title>
 				<PrjDetail.Desc>All projects I have done in ecole 42.</PrjDetail.Desc>
 				<PrjDetail.Section>
-					<PrjDetail.SubTitle>Overview</PrjDetail.SubTitle>
-					<PrjDetail.Desc>
-						Taken a role as a front-end developer, implemented webpage. SPA react
-						website.
-					</PrjDetail.Desc>
-				</PrjDetail.Section>
-				<PrjDetail.Section>
 					<PrjDetail.SubTitle>Stacks</PrjDetail.SubTitle>
 					<PrjDetail.CardWrapper>
 						<PrjDetail.Card style={{ backgroundColor: C }}>C</PrjDetail.Card>
